@@ -1,12 +1,48 @@
-# React + Vite
+# 🛒 React Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive shopping cart web app built using **React** and **Tailwind CSS**. Users can view items, increase/decrease item quantities, remove items, and see the dynamically updated total. A "Clear Cart" feature is also included.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📦 Add multiple products with details (name, price, image, quantity)
+- 🔼 Increment and 🔽 Decrement product quantity
+- ❌ Remove individual products from the cart
+- 🧹 Clear the entire cart at once
+- 💰 Real-time total price calculation
+- 🎨 Styled using Tailwind CSS
+- 🧠 Built with React Hooks (`useState`, `useEffect`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Demo Preview
+
+[Live Demo](https://react-shopping-cart-app-sigma.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- React Icons
+
+---
+
+## 📂 Folder Structure
+```
+src/
+  │
+  ├── App.jsx
+  ├── main.jsx
+  ├── index.css
+  ├── sections/
+      │
+      ├── HeaderSection.jsx
+      └── CartSection.jsx
+```
+---
+
+## 🤝 Contributing
+Feel free to fork the repo and submit pull requests. All contributions are welcome!
